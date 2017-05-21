@@ -11,7 +11,9 @@ var React = require('react');
 
 var About = (props) => {
   return (
+    <div>
     <h3>About Page of Funtime Sensationalism</h3>
+  </div>
   )
 };
 
