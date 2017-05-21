@@ -11,6 +11,8 @@ var About = require('About');
 var Examples = require('Examples');
 
 //Load foundation
+//inject into html
+//load css
 require('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
 
