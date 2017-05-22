@@ -11,18 +11,20 @@ var {Link} = require('react-router');
 
 var Examples = (props) => {
   return (
-    <div>
-      <h1 className="text-center">Zeppelin Rules!!</h1>
+    <div className="all">
+      <h1 className="text-center page-title">Zeppelin Rules!!</h1>
       <p> Best songs ever include:</p>
-      <ol>
-        <li>
-          <Link to='/?location=WhenLeveeBreaks'>When The Levee Breaks</Link>
-        </li>
-      <li>
-        <Link to='/?location=HeyHey'>Hey Hey What Can I Do</Link>
-      </li>
-      <li>Tangerine</li>
-    </ol>
+
+          <p>Tangerine</p>
+          <p>When The Levee Breaks</p>
+          <p>Hey Hey What Can I Do</p>
+
+    <p>
+      <Link to='/?location=Houston'>Search for Houston Weather</Link>
+    </p>
+  <p>
+    <Link to='/?location=Miami'>Search for Miami Weather</Link>
+  </p>
     </div>
   )
 };
